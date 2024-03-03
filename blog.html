@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Our Courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            <i class="fa-solid fa-bars" onclick="showMenu"></i>
+        </div>
+
+        </nav>
+       <h1>Our Certificate & online program for 2023</h1>
+
+    </section>
+<!----------blog page content ----->
+
+<section clas="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="image/certificate.jpg" >
+            <h2>Our Certificate & online program for 2023</h2>
+            <p>you’ll focus on the core activities of an organization that create value. 
+                This includes applying a financial perspective of accounting for costs, 
+                and how financial and non-financial accounting information facilitates 
+                strategic performance measurement. <br>
+
+            <p>In this program, you’ll benefit from live, interactive learning sessions
+                 with instructors and receive actionable feedback from teaching staff 
+                 and fellow learners. Through hands-on projects, exercises, and 
+                 case studies, you’ll develop experience and insight in value chain 
+                 management that you can apply immediately in your career.<br>
+
+                The certificate stacks directly into the full Master of Business
+                Administration (iMBA), Master of Science in Accountancy (iMSA), and Master
+                of Science in Management (iMSM) from the University of Illinois.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a comment </h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                     <textarea rows="5" placeholder="Your Comment"></textarea>
+                     <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+            
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Bussiness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science </span>
+                <span>38</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Computer Science </span>
+                <span>26</span>
+            </div>
+            <div>
+                <span>Auto-Card</span>
+                <span>26</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>21</span>
+            </div>
+            
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!----------Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Mumbai (known earlier as University of Bombay) is one of the oldest and premier Universities in India.<br> University was accorded 5 star status in 2001 & ‘A++’ grade status in April 2017 by the National Assessment and Accreditation Council (NAAC).</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+     <p>Made With <i class="fa fa-heart-o"> </i> Easy Tutorials</p>
+</section>
+
+<!--------JavaScript for toggle menu-------------->
+    <script>
+        var navLinks= document.getElementsById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200";
+        }
+    </script>
+    
+</body>
+</html>
